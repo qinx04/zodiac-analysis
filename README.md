@@ -45,11 +45,9 @@ To explore the Zodiac Insights on your local machine, follow these steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/YourUsername/zodiac-analysis.git
+    git clone https://github.com/thexqin/zodiac-analysis.git
     cd zodiac-analysis
     ```
-
-    (Replace `YourUsername` with your actual GitHub username)
 
 2.  **Create a virtual environment (recommended):**
 
