@@ -1,6 +1,5 @@
 # Zodiac Insights: Unveiling Astrological Data with Python
 
-
 ## 🌌 Project Overview
 
 The **Zodiac Insights** repository offers a unique Python-based exploration of astrological data. This project goes beyond simple lookups, demonstrating skills in **data parsing (JSON), web scraping (Beautiful Soup), and creative visualization (Turtle graphics)** to present information about Western zodiac signs and even fetch daily horoscopes.
@@ -66,9 +65,6 @@ To explore the Zodiac Insights on your local machine, follow these steps:
     ```
 
 4.  **Obtain the `zodiac.json` file:**
-    *(**Crucially, you need to create a `zodiac.json` file with the structure expected by your script. Provide an example of this file structure below.**)*
-
-    **Example `zodiac.json` Structure:**
 
     ```json
     {
@@ -80,7 +76,7 @@ To explore the Zodiac Insights on your local machine, follow these steps:
           "approximate_start_date": "March 21",
           "approximate_end_date": "April 19",
           "keywords": ["Energetic", "Courageous", "Impetuous"],
-          "longitude_end": 30 # Example for Turtle positioning
+          "longitude_end": 30
         },
         "Taurus": {
           "gloss": "The Bull",
@@ -91,7 +87,6 @@ To explore the Zodiac Insights on your local machine, follow these steps:
           "keywords": ["Practical", "Sensual", "Stubborn"],
           "longitude_end": 60
         },
-        // ... add definitions for other zodiac signs ...
         "Pisces": {
           "gloss": "The Fish",
           "unicode_symbol": "♓",
@@ -101,18 +96,15 @@ To explore the Zodiac Insights on your local machine, follow these steps:
           "keywords": ["Compassionate", "Artistic", "Escapist"],
           "longitude_end": 360
         }
-      },
-      "eastern_zodiac": {
-        // ... (You can expand this with Eastern zodiac data if you like) ...
       }
     }
     ```
 
 5.  **Run the main script:**
-    Execute the Python script (e.g., `zodiac_analyzer.py`). The Turtle graphics window will open, and you will be prompted to enter your birth month and day.
+    Execute the Python script (e.g., `zodiac.py`). The Turtle graphics window will open, and you will be prompted to enter your birth month and day.
 
     ```bash
-    python zodiac_analyzer.py
+    python zodiac.py
     ```
 
     The script will then:
@@ -122,7 +114,6 @@ To explore the Zodiac Insights on your local machine, follow these steps:
       * Display information about your sign.
       * Fetch and display your daily horoscope.
 
-
 ## ✨ Interactive Experience
 
 Upon running the script, you'll be greeted with a Turtle graphics window. After providing your birth date, the application will:
@@ -131,16 +122,13 @@ Upon running the script, you'll be greeted with a Turtle graphics window. After 
 2.  Display key attributes of your zodiac sign, such as its symbol, ruling element, and associated keywords.
 3.  Fetch your personalized daily horoscope from Astrology.com and present it in the Turtle window.
 
-*(**Consider adding a simple visual of what the Turtle graphics output might look like, even a text-based representation if a screenshot isn't feasible directly in the README.**)*
-
-
 ## 📂 Repository Structure
 
 ```
 zodiac-analysis/
-├── zodiac_analyzer.py    # Main Python script with all the logic
-├── zodiac.json          # JSON file containing Western and (optionally) Eastern zodiac data
-└── README.md            # This file
+├── zodiac.py    # Main Python script with all the logic
+├── zodiac.json  # JSON file containing Western and (optionally) Eastern zodiac data
+└── README.md    # This file
 ```
 
 ## 🤝 Contribution
